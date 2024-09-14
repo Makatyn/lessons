@@ -1,0 +1,75 @@
+@import url("reset.css");
+
+*{
+	color: red;
+}
+
+p {
+	color: blue;
+}
+
+h1 {
+	color: gold;
+}
+
+h3 {
+	color: silver;
+}
+
+.subject{
+	color: green;
+}
+
+.link {
+	color: violet;
+}
+
+.text-3 {
+	color: brown;
+}
+
+#menu {
+	color: aqua;
+}
+
+#goverment {
+	color: indigo;
+}
+
+[class*="tes"] {
+	color: black;
+}
+
+li.item {
+	color: magenta;
+}
+
+.title,
+.text-4,
+.item-2 {
+	color: lightgreen;
+}
+
+.section-5 p {
+	color: cadetblue;
+}
+
+.section-3 p {
+	color: chartreuse;
+}
+
+.text * {
+	color: yellowgreen;
+}
+
+.section-4 > p {
+	color: grey;
+}
+
+.section-4 ~ p {
+	color: brown;
+}
+
+.section-4 + p {
+	color: aqua;
+}

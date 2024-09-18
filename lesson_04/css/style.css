@@ -1,0 +1,140 @@
+/* Підключення шрифтів */
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair:regular,700&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+body {
+	font-family: "Proxima Nova", sans-serif;
+	color: #808080;
+}
+.main-title {
+	font-family: "Playfair" ,serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: #3abbc8;
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+}
+.list {
+	font-family: "Playfair", serif;
+	font-size: 20px;
+	color: #8F00FF;
+	text-transform: uppercase;
+}
+.subtitle{
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+.link {
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: 300;
+	text-transform: lowercase;
+	color: #0000ff;
+	text-decoration: underline;
+}
+.prac-align1 {
+	text-align: left;
+	color: #ff7f50;
+	line-height: 1.5;
+}
+.prac-align2 {
+	text-align: center;
+	color: #00008b;
+}
+.prac-align3 {
+	text-align: right;
+	color: #006400;
+}
+.prac-align4 {
+	text-align: justify;
+	color: #3abbc8;
+}
+.pra-decor {
+	color: #0000ff;
+	text-decoration: underline;
+	text-decoration-color: #f00;
+}
+.prac-decor1 {
+	color: #008000;
+	text-decoration: overline;
+	text-decoration-color: #ff7f50;
+	text-decoration-style: wavy;
+}
+.prac-decor2 {
+	color: #f00;
+	text-decoration: line-through;
+	text-decoration-color: #00008b;
+	text-decoration-style: double;
+}
+.prac-decor3 {
+	color: #8F00FF;
+	text-decoration: underline;
+	text-decoration-color: #008000;
+	text-decoration-style: dotted;
+}
+.pr-shadow1 {
+	text-shadow: 2px 2px 5px #008000;
+}
+.pr-shadow2 {
+	text-shadow:
+		3px 3px 3px #0000ff,
+		5px 6px 7px rgba(0, 128, 0, 0.63);
+	word-spacing: 10px;
+}
+.nwrp {
+	white-space: nowrap;
+}
+.text-1 {
+	color: #556070;
+	font-family: "Work Sans", sans-serif;
+	font-size: 18px;
+	line-height: 1.33; /* 24/18 */
+}
+.text-11 {
+	color: #132238;
+	font-family: "Work Sans", sans-serif;
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 1.32; /* 50/38 */
+}
+.text-2 {
+	color: #474464;
+	font-family: "DM Sans", sans-serif;
+	font-size: 24px;
+	line-height: 1.75; /* 42/24 */
+}
+.text-22 {
+	color: #1E1B39;
+	font-family: "DM Sans", sans-serif;
+	font-size: 88px;
+	font-weight: 700;
+	line-height: 1.08; /* 95/88 */
+}
+.text-3 {
+	color: #505F98;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	line-height: 1.67; /* 30/18 */
+}
+.text-33 {
+	color: #091133;
+	font-family: "Roboto", sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.32; /* 66/50 */
+	letter-spacing: 1px;
+}

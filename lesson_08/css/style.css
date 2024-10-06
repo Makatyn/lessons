@@ -1,0 +1,184 @@
+/* Підключення фрифтів */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 21px;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /* clip */
+	background-color: #FDF0E9;
+}
+header {
+	background-color: #EF6C57;
+	margin-block-end: 20px;
+}
+.container-1{
+	max-width: 1500px;
+	margin-inline: auto;
+	padding-inline: 15px;
+
+}
+header .title {
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.5;
+}
+.container-2 {
+	max-width: 1500px;
+	margin-inline: auto;
+	padding-inline: 15px;
+	margin-block-end: 20px;
+}
+.container-2 > :not(:last-child){
+	margin-block-end: 10px;
+}
+.icon-1 {
+	width: 48px;
+	height: 48px;
+	vertical-align: middle;
+}
+.text-info {
+	display: inline-block;
+}
+.icon-box-1 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EF6C57;
+	width: 112px;
+	height: 112px;
+	border-radius: 50%;
+	padding-block: 31px 33px;
+	padding-inline: 32px;
+}
+.icon-2 {
+	width: 48px;
+	height: 48px;
+}
+.icon-box-2 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EF6C57;
+	width: 112px;
+	height: 112px;
+	border-radius: 50%;
+	padding-block: 35px 38px;
+	padding-inline: 32px;
+}
+.icon-3 {
+	width: 48px;
+	height: 39px;
+}
+.icon-4 {
+	width: 148px;
+	height: 148px;
+	vertical-align: middle;
+}
+.icon-box-3 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EF6C57;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	padding-block: 16px;
+	padding-inline: 19px;
+}
+.icon-5 {
+	width: 9px;
+	height: 16px;
+}
+.icon-box-4 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EF6C57;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	padding-block: 17.5px;
+	padding-inline: 16px;
+}
+.icon-6 {
+	width: 16px;
+	height: 13px;
+}
+.icon-box-5 {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #EF6C57;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	padding-block: 16px;
+	padding-inline: 16px;
+}
+.icon-7 {
+	width: 16px;
+	height: 16px;
+}
+.icon-8 {
+	width: 148px;
+	height: 148px;
+	border-radius: 10px;
+	vertical-align: middle;
+	background: url("../img/bitmap.webp") 0 0 / cover no-repeat;
+	opacity: 0.5;
+}
+.icon-8:hover {
+	opacity: 1;
+}
+.icon-9 {
+	width: 339px;
+	height: 192px;
+	vertical-align: middle;
+}
+.bgp-1 {
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	vertical-align: middle;
+	background-image: url("../img/marks.svg");
+}
+.bgp-2 {
+	display: inline-block;
+	width: 282px;
+	height: 242px;
+	vertical-align: middle;
+	background-image: url("../img/cloud.svg");
+}
+.image {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+.image-1 {
+	max-width: 570px;
+	border-radius: 6px;
+	vertical-align: middle;
+}
+.image-2 {
+	border-radius: 6px;
+	max-width: 1170px;
+}
+.text-info-small {
+	text-align: center;
+}
+footer {
+	background-color: #EF6C57;
+}
+footer .title {
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+	line-height: 1.5;
+}

@@ -1,0 +1,8 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden; /* clip */
+	background-color: #FDF0E9;
+}

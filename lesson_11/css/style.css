@@ -1,0 +1,538 @@
+/* Підключення фрифтів */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Playfair Display", serif;
+	background-color: #FDF0E9;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: clip; /* clip або hidden*/
+}
+.header--design {
+	margin-block-end: 15px;
+	padding-block-end: 5px;
+	background-color: #A9A9A9;
+	color: #FFF;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+}
+[class*="__container"] {
+	max-width: 1470px;
+	margin-inline: auto;
+	padding-inline: 15px;
+}
+[class*="__container"] * {
+	scroll-margin-top: 60px;
+}
+.header__title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.5;
+}
+.header__menu {
+	text-align: center;
+}
+.menu-header__item {
+	position: relative;
+	display: inline-block;
+}
+.menu-header__item:not(:last-child) {
+	margin-inline-end: 20px;
+}
+.menu-header__item:hover {
+	color: #000;
+}
+.sub-menu {
+	position: absolute;
+	inset-inline-start: 0;
+	inset-block-start: 100%;
+	inline-size: 180px;
+	background-color: #B0B0B0;
+	border: 2px solid #000;
+	color: #000;
+	text-align: left;
+	padding: 15px;
+	border-radius: 10px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 1;
+	pointer-events: none;
+	transition: all 0.3s;
+}
+.sub-menu__item:not(:last-child) {
+	margin-block-end: 10px;
+}
+.sub-menu__link:hover {
+	text-decoration: underline;
+}
+.menu-header__item:hover .sub-menu {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/* ================================================= Body =============================================================== */
+.page__container {
+	font-family: "Inter", sans-serif;
+}
+.page__container > * {
+	margin-block-end: 20px;
+}
+.homework__title {
+	font-size: 30px;
+	margin-block-end: 15px;
+	padding-inline-start: 15px;
+	padding-inline-end: 15px;
+}
+.homework__body{
+	margin-inline-start: -15px;
+	margin-inline-end: -15px;
+	font-size: 0;
+}
+.homework__body:not(:last-child) {
+	margin-block-end: 30px;
+}
+.homework__section {
+	width: 20%;
+	display: inline-block;
+	font-size: 16px;
+	padding-inline-start: 15px;
+	padding-inline-end: 15px;
+	vertical-align: middle;
+}
+.homework__block {
+	width: 250px;
+	background-color: rgba(128, 128, 128, 0.164);
+	border-radius: 8px;
+}
+.homework__item {
+	width: 250px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+.homework__text {
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+.homework__block:hover .homework__item--left {
+	transform: translate(20px, 0);
+}
+.homework__block:hover .homework__item--bottom {
+	transform: translate(0, -30px);
+}
+.homework__block:hover .homework__item--left-top {
+	transform: translate(15px, 15px);
+}
+.homework__block:hover .homework__item--right-bottom {
+	transform: translate(-20px, -20px);
+}
+.homework__block:hover .homework__item--left-bottom {
+	transform: translate(20px, -20px);
+}
+.homework__block:hover .homework__item--scale-big {
+	transform: scale(1.1);
+}
+.homework__block:hover .homework__item--scale-small {
+	transform: scale(0.8);
+}
+.homework__block:hover .homework__item--scale-wide-block {
+	transform: scale(1, 1.2);
+}
+.homework__block:hover .homework__item--scale-wide-inline {
+	transform: scale(1.3, 1);
+}
+.homework__block:hover .homework__item--scale-mirror {
+	transform: scale(-1, 1);
+}
+.homework__block:hover .homework__item--rotate-left {
+	transform: rotate(45deg);
+}
+.homework__block:hover .homework__item--rotate-bottom {
+	transform: rotate(110deg);
+}
+.homework__block:hover .homework__item--rotate-right {
+	transform: rotate(-20deg);
+}
+.homework__block:hover .homework__item--rotate-top {
+	transform: rotate(-180deg);
+}
+.homework__block:hover .homework__item--rotate-round {
+	transform: rotate(360deg);
+}
+.homework__block:hover .homework__item--skew {
+	transform: skew(10deg, 10deg);
+}
+.homework__block:hover .homework__item--skew-left {
+	transform: skew(20deg);
+}
+.homework__block:hover .homework__item--skew-right {
+	transform: skew(0, 20deg);
+}
+.homework__block:hover .homework__item--matrix {
+	transform: matrix(0.5, 0.3, 0.1, 0.5, 10, 15);
+}
+.homework__block:hover .homework__item--mix {
+	transform: translate(20px, 25px) rotate(60deg) scale(0.7);
+}
+.homework__block:hover .homework__item--origin-top {
+	transform: rotate(45deg);
+	transform-origin: top;
+}
+.homework__block:hover .homework__item--origin-right {
+	transform: rotate(-45deg);
+	transform-origin: top right;
+}
+.homework__block:hover .homework__item--origin-bottom-left {
+	transform: rotate(30deg);
+	transform-origin: bottom left;
+}
+.homework__block:hover .homework__item--origin-pixel {
+	transform: rotate(-10deg);
+	transform-origin: 100px 50px;
+}
+.homework__block:hover .homework__item--origin-bottom-right {
+	transform: rotate(10deg);
+	transform-origin: bottom right;
+}
+
+/* ================================================ 3D ============================================== */
+
+.homework__block-3d {
+	width: 250px;
+	height: 250px;
+	background-color: rgba(128, 128, 128, 0.164);
+	border-radius: 8px;
+}
+.homework__item-3d {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+.homework__block-3d--center:hover .homework__item-3d--center {
+	transform: rotateX(65deg);
+}
+.homework__block-3d--center:hover {
+	perspective: 800px;
+	perspective-origin: center;
+}
+.homework__block-3d--left:hover .homework__item-3d--left {
+	transform: rotateX(65deg);
+}
+.homework__block-3d--left:hover {
+	perspective: 800px;
+	perspective-origin: left;
+}
+.homework__block-3d--right:hover .homework__item-3d--right {
+	transform: rotateX(65deg);
+}
+.homework__block-3d--right:hover {
+	perspective: 800px;
+	perspective-origin: right;
+}
+.homework__block-3d--axisx:hover .homework__item-3d--axisx {
+	transform: rotateY(65deg);
+}
+.homework__block-3d--axisx:hover {
+	perspective: 800px;
+	perspective-origin: right;
+}
+.homework__block-3d--axisy:hover .homework__item-3d--axisy {
+	transform: rotateY(-65deg);
+}
+.homework__block-3d--axisy:hover {
+	perspective: 800px;
+}
+.homework__block-3d--translate:hover .homework__item-3d--translate {
+	transform: translate3d(-30px, 30px, 30px);
+}
+.homework__block-3d--translate:hover {
+	perspective: 800px;
+}
+.homework__block-3d--rotate:hover .homework__item-3d--rotate {
+	transform: rotate3d(1, 1, 1, 45deg);
+}
+.homework__block-3d--rotate:hover {
+	perspective: 400px;
+}
+.homework__block-3d--mix:hover .homework__item-3d--mix {
+	transform: translate3d(30px, 30px, 30px) rotate3d(1, 1, 1, 30deg);
+}
+.homework__block-3d--mix:hover {
+	perspective: 400px;
+}
+.homework__block-3d--style:hover .homework__item-3d--style {
+	transform: rotateX(55deg);
+}
+.homework__block-3d--style:hover {
+	perspective: 400px;
+	transform-style: preserve-3d;
+}
+.homework__block-3d--style:hover .homework__item-3d--style {
+	transform: rotateX(55deg);
+}
+.homework__block-3d--style:hover {
+	perspective: 400px;
+	transform-style: preserve-3d;
+}
+.homework__block-3d--backface:hover .homework__item-3d--backface {
+	transform: rotateY(120deg);
+	backface-visibility: visible;
+}
+.homework__block-3d--backface:hover {
+	perspective: 400px;
+	transform-style: preserve-3d;
+}
+
+/* ================================================== Coin ============================================================== */
+
+.flipper {
+	text-align: center;
+
+}
+.coin {
+	display: inline-block;
+}
+.coin__body {
+position: relative;
+perspective: 800px;
+}
+.coin__back,
+.coin__front {
+	transition: all 0.5s;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.coin__front {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.coin__back {
+	backface-visibility: hidden;
+	transform: rotateY(0deg);
+}
+.coin__body:hover .coin__front {
+	transform: rotateY(0deg);
+}
+.coin__body:hover .coin__back {
+	transform: rotateY(-180deg);
+}
+
+/* ==================================================== Project ========================================================= */
+
+.project__container {
+	width: 1920px;
+	height: 1080px;
+	background: url("../img/background.webp") 0 0 / cover no-repeat;
+	position: relative;
+}
+.auto {
+	position: relative;
+	width: 1400px;
+	height: 1100px;
+}
+.auto__whell {
+	position: absolute;
+	bottom: 116px;
+	left: 477px;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(69, 68, 73);
+	border-radius: 50%;
+	border: 2px dashed black;
+	z-index: 3;
+}
+.auto__whell-inside {
+	position: absolute;
+	bottom: 151px;
+	left: 514px;
+	width: 125px;
+	height: 125px;
+	background-color: rgb(113, 112, 119);
+	border-radius: 50%;
+	z-index: 3;
+}
+.auto__whell-left {
+	position: absolute;
+	bottom: 116px;
+	left: 989px;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(69, 68, 73);
+	border-radius: 50%;
+	border: 2px dashed black;
+	z-index: 3;
+}
+.auto__whell-inside-left {
+	position: absolute;
+	bottom: 151px;
+	left: 1028px;
+	width: 125px;
+	height: 125px;
+	background-color: rgb(113, 112, 119);
+	border-radius: 50%;
+	z-index: 3;
+}
+.auto__back {
+	position: absolute;
+	bottom: 237px;
+	left: 408px;
+	width: 850px;
+	height: 100px;
+	background-color: rgb(29, 144, 121);
+	border-radius: 0px 20px 42px 35px;
+	border: 1px solid rgb(0, 109, 0);
+	z-index: 2;
+}
+.auto__back-top {
+	position: absolute;
+	width: 325px;
+	height: 100px;
+	background-color: rgb(29, 144, 121);
+	bottom: 337px;
+	left: 408px;
+	border-radius: 35px 35px 0px 0px;
+	border: 1px solid rgb(0, 109, 0);
+	z-index: 2;
+}
+.auto__middle {
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	background-color: rgb(97, 115, 134);
+	bottom: 337px;
+	left: 732px;
+}
+.auto__front {
+	position: absolute;
+	width: 350px;
+	height: 105px;
+	background-color: rgb(29, 144, 121);
+	bottom: 337px;
+	left: 900px;
+	border-radius: 30px 55% 8px 1px;
+	border: 1px solid rgb(0, 109, 0);
+	z-index: 2;
+}
+.auto__light-front {
+	position: absolute;
+	width: 65px;
+	height: 40px;
+	background-color: rgb(234, 194, 94);
+	border: 2px solid yellow;
+	bottom: 370px;
+	right: 190px;
+	border-radius: 5px 50%;
+	z-index: 3;
+}
+.auto__light-back {
+	position: absolute;
+	width: 40px;
+	height: 65px;
+	background-color: rgb(163, 13, 13);
+	bottom: 360px;
+	left: 420px;
+	border-radius: 50% 5px;
+	border: 2px solid red;
+	z-index: 3;
+}
+.auto:hover .auto__light-back {
+	background-color: red;
+	box-shadow: 0 0 15px rgba(255, 0, 0, 1.8);
+}
+.auto:hover .auto__light-front {
+	background-color: yellow;
+	box-shadow: 0 0 15px rgba(255, 255, 0, 2.8);
+}
+.auto__whell-back {
+	position: absolute;
+	width: 70px;
+	height: 210px;
+	background-color: rgb(69, 68, 73);
+	bottom: 318px;
+	left: 337px;
+	border-radius: 17px;
+}
+.auto__middle-top {
+	position: absolute;
+	width: 60px;
+	height: 130px;
+	background-color: rgb(97, 115, 134);
+	bottom: 410px;
+	left: 668px;
+	border-radius: 15px;
+}
+.auto__frame-top {
+	position: absolute;
+	width: 260px;
+	height: 15px;
+	background-color: rgb(133, 128, 140);
+	bottom: 578px;
+	left: 619px;
+	border-radius: 5px;
+}
+.auto__frame-bottom {
+	position: absolute;
+	width: 15px;
+	height:160px;
+	background-color: rgb(133, 128, 140);
+	bottom: 428px;
+	left: 615px;
+	border-radius: 5px;
+}
+.auto__frame-back {
+	position: absolute;
+	width: 230px;
+	height: 15px;
+	background-color: rgb(133, 128, 140);
+	bottom: 498px;
+	left: 436px;
+	transform: rotate(-48deg);
+	border-radius: 20px;
+}
+.auto__head {
+	position: absolute;
+	width: 220px;
+	height: 50px;
+	background-color: rgb(29, 144, 121);
+	bottom: 499px;
+	right: 385px;
+	transform: rotate(70deg);
+	border-radius: 25px 0px 0px 0px;
+	border: 1px solid rgb(0, 109, 0);
+}
+.auto__glass {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: 60px solid transparent;
+	border-bottom: 200px solid rgb(177, 213, 217);
+	bottom: 427px;
+	right: 408px;
+	transform: rotate(-20deg);
+	opacity: 0.6;
+}
+
+/* ================================================= Footer ============================================================= */
+
+.footer--design {
+	padding-block: 15px;
+	background-color: #A9A9A9;
+	color: #FFF;
+	text-align: center;
+}

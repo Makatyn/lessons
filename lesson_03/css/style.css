@@ -1,0 +1,72 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+
+h1 {
+	color: orange;
+}
+
+.list {
+	color: brown;
+}
+
+#section-01 {
+	color: blue;
+}
+
+[class*="sub"] {
+	color: green;
+}
+
+div.text {
+	color: aqua;
+}
+
+.main-text,
+.name-text {
+	color: blueviolet;
+}
+
+.block-history h2 {
+	color: red;
+}
+
+.block-history h3 {
+	color: yellow;
+}
+
+.block-history p {
+	color: blue;
+}
+
+.text a {
+	color: red;
+}
+
+.block-nature .text1{
+	color: orange;
+}
+
+.block-eco * {
+	color: green;
+}
+
+.block-culture > p {
+	color: brown;
+}
+
+.block-culture2 ~ p {
+	color: red;
+}
+
+.block-economy + p {
+	color: pink;
+}
+
+h2 {
+	color: aqua;
+}
+
+.footer a {
+	color: slateblue;
+}

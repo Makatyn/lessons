@@ -1,0 +1,107 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Підключення шрифтів CSS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open%20Sans:wght@400&display=swap");
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+.main-title {
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.item {
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.2; /* 24/20 */
+	color: rgba(0, 162, 255, 0.849);
+	text-decoration: underline;
+}
+.title {
+	font-family: "Montserrat", sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.33; /* 32/24 */
+	color: rgb(179, 136, 20);
+	text-transform: capitalize;
+	letter-spacing: 1.2px;
+	text-decoration: overline;
+}
+.sub-title {
+	font-family: "Montserrat", sans-serif;
+	font-size: 26px;
+	line-height: 1.44; /* 26/18 */
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-decoration-color: green;
+	text-decoration-style: wavy;
+}
+.text-general {
+	font-size: 20px;
+	line-height: 1.25; /* 20/16 */
+	letter-spacing: 1px;
+	color: rgba(199, 79, 79, 0.973);
+}
+.text-early {
+	font-family: "Gilroy", sans-serif;
+	font-size: 18px;
+	line-height: 1.13; /* 18/16 */
+	text-align: justify;
+	color: rgb(105, 50, 50);
+}
+.text-20th {
+	font-family: "Gilroy", sans-serif;
+	font-weight: 700;
+	line-height: 1.14; /* 16/14 */
+	color: rgba(53, 1, 102, 0.877);
+	text-align: right;
+}
+.text-21st {
+	font-family: "Gilroy", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.1; /* 22/20 */
+	color: blueviolet;
+	text-shadow: 3px 3px 3px rgb(36, 216, 192);
+}
+.text-recent {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	line-height: 1.29; /* 18/14 */
+	color: rgba(66, 124, 7, 0.918);
+	text-align: justify;
+}
+.text-sports {
+	font-family: "Noir", sans-serif;
+	line-height: 1.33; /* 16/12 */
+	text-shadow: -4px -2px 3px red;
+}
+.text-popularity {
+	font-family: "Noir", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+.button {
+	font-family: "Playfair Display", serif;
+	font-size: 32px;
+	color: blue;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+.link {
+	font-family: "Play Display", serif;
+	font-size: 20px;
+	color: blue;
+	text-decoration: underline;
+}

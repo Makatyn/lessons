@@ -34,7 +34,7 @@ body {
 	margin-bottom: 10px;
 	line-height: 1.2;
 }
-.section-2 {
+.section-practice {
 	max-width: 1180px;
 	margin: 0 auto;
 	margin-bottom: 60px;
@@ -164,18 +164,19 @@ box-shadow: 36px -20px 17px -6px rgba(210, 20, 188, 0.47);
 					0px -20px 39px 16px rgba(197, 20, 210, 0.5),
 					6px 20px 39px 16px rgba(70, 210, 20, 0.5);
 }
-.section-3 {
+.section-list {
 	max-width: 351px;
 	margin: 0 auto 30px;
 }
 .card {
-	padding: 16px 40px;
+	padding: 16px 40px 16px;
 }
 .item__layout {
 	background: url("../img/сheck_badge.svg") 0 0 no-repeat;
 	margin-bottom: 15px;
 	min-height: 32px;
 	padding-left: 42px;
+	padding-top: 4px;
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
 	font-weight: 600;
@@ -188,6 +189,7 @@ box-shadow: 36px -20px 17px -6px rgba(210, 20, 188, 0.47);
 	margin-bottom: 15px;
 	min-height: 32px;
 	padding-left: 42px;
+	padding-top: 4px;
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
 	font-weight: 600;
@@ -195,57 +197,51 @@ box-shadow: 36px -20px 17px -6px rgba(210, 20, 188, 0.47);
 	letter-spacing: 0.2px;
 	color: #252B42;
 }
-.section-4 {
-	min-height: 694px;
-	background: url("../img/rectangle.jpg") 0 0 no-repeat;
-}
-.card2 {
-	max-width: 1392px;
-	margin-left: 7%;
-	text-align: right;
-}
-.content {
-	display: inline-block;
-	text-align: left;
+.bg-section {
 	padding-top: 114px;
-	max-width: 518px;
+	padding-bottom: 110px;
+	background: url("../img/rectangle.jpg") left center / cover no-repeat, #d9d9d9;
 }
-.sub-title {
+.container {
+	max-width: 1392px;
+	margin: 0 auto;
+}
+.bg-section-content {
+	max-width: 650px;
+	margin-left: auto;
 	font-family: "Lato", sans-serif;
+	color: #2F302C;
+}
+.bg-section-label {
+	margin-bottom: 20px;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 1.4; /* 28/20 */
-	color: #2F302C;
-	margin-bottom: 20px;
 }
-.title-funiture {
-	font-family: "Montserrat", sans-serif;
-	font-size: 96px;
-	font-weight: 800;
-	line-height: 1.04; /* 100/96 */
-	color: #2F302C;
+.bg-section-title {
 	margin-bottom: 16px;
-}
-span {
 	font-family: "Montserrat", sans-serif;
 	font-size: 96px;
 	font-weight: 700;
 	line-height: 1.04; /* 100/96 */
-	color: #2F302C;
 }
-.text-funiture {
-	font-family: "Lato", sans-serif;
-	font-size: 16px;
+.bg-section-title span {
+	font-weight: 800;
+}
+.bg-section-content p {
 	font-weight: 500;
 	line-height: 1.25; /* 20/16 */
 	color: #7E7F7C;
-	max-width: 374px;
 }
 .line {
-	width: 308px;
+	width: 100%;
+	max-width: 308px;
 	height: 1px;
 	background-color: #2F302C;
 	margin-bottom: 36px;
+}
+.bg-section-title + .bg-section-label {
+	margin-top: 36px;
 }
 .footer {
 	text-align: center;

@@ -237,7 +237,7 @@ text-align: left;
 	color: #252B42;
 }
 .list > *:not(:last-child) {
-	margin-bottom: 16px;
+	margin-bottom: 15px;
 }
 .list-item::before {
 	vertical-align: middle;
@@ -382,4 +382,5 @@ text-align: left;
 .footer .link:active {
 	color: #fff;
 	box-shadow: 2px 2px 3px #000;
+
 }

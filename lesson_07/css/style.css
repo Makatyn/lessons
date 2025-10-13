@@ -1,0 +1,386 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+
+body {
+	font-family: "Lato", sans-serif;
+}
+.main-title {
+	font-size: 42px;
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.header {
+	padding: 30px 0;
+	margin-bottom: 20px;
+	background-image: linear-gradient(0deg, rgba(14, 174, 237, 0) 50%, rgba(0, 255, 229, 1) 100%);
+	background-repeat: no-repeat;
+}
+.header-section {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+ol {
+	counter-reset: list-counter;
+	font-size: 18px;
+	padding: 5px;
+	border: 2px solid rgb(0, 128, 96);
+	border-radius: 10px;
+	color: #008000;
+}
+ol li::before {
+	counter-increment: list-counter;
+	content: counter(list-counter)" ";
+	margin-right: 5px;
+	color: #008000;
+}
+.menu-list>*:not(:last-child) {
+	margin-bottom: 10px;
+}
+li .link:hover {
+	text-decoration: underline;
+	color: rgb(0, 204, 255);
+}
+li .link:active {
+	color: blue;
+}
+.main-container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.main-container >* {
+	margin-bottom: 16px;
+}
+.title {
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* ======================================================= main ================================================================ */
+
+.main-container .link {
+	min-width: 150px;
+	padding: 15px 20px;
+	border: 1px solid #000;
+	font-size: 24px;
+	border-radius: 15px;
+}
+.main-container .link:not(:last-child) {
+	margin-right: 50px;
+}
+.main-homework {
+	text-align: center;
+}
+.hover-1:hover {
+	color: blue;
+	border-color: blue;
+}
+.hover-2:hover {
+	color: green;
+	text-decoration: underline;
+	border-color: green;
+	box-shadow: 2px 2px 1px green;
+}
+.hover-3:hover {
+	color: #77608d;
+	text-decoration: underline;
+	border-color: transparent;
+}
+.hover-4:hover {
+	background-color: yellow;
+	border: 1px dotted green;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+.active-1:active {
+	color: #fff;
+	background-color: #ff0000;
+}
+.active-2:active {
+	color: #0000ff;
+	text-decoration: line-through;
+	border-color: #0000ff;
+}
+.active-3:active {
+	color: #008000;
+	border: 1px dashed #008000;
+}
+.active-4:active {
+	color: #ff1493;
+	border-color: transparent;
+	box-shadow: 2px 2px 2px #ff1493;
+}
+.visited-1:visited {
+	color: #77608d;
+	border-color: #77608d;
+}
+.visited-2:visited {
+	color: #ff0000;
+}
+
+.visited-3:visited {
+	color: #008000;
+	border-color: #008000;
+}
+.visited-4 {
+	color: #00000086;
+	background-color: #e0dfdf;
+}
+.focus-1:focus {
+	outline: 1px solid red;
+}
+.focus-2:focus {
+	outline: 3px dashed red;
+}
+.focus-visible-1:focus-visible {
+	outline: 3px solid green;
+}
+.focus-visible-2:focus-visible {
+	outline: 3px dotted blue;
+}
+.target-1:target {
+	background-color: blueviolet;
+}
+.target-2:target {
+	background-color: green;
+}
+.target-3:target {
+	background-color: yellow;
+}
+.target-4:target {
+	background-color: orange;
+}
+.text {
+max-width: 800px;
+margin-inline: auto;
+text-align: left;
+}
+.text :not(:last-child) {
+	margin-bottom: 10px;
+}
+.text1 :first-child {
+	background-color: rgba(0, 204, 255, 0.596);
+}
+.text1 p:first-of-type {
+	background-color: rgba(0, 102, 255, 0.596);
+}
+.text2 :last-child {
+	background-color: rgba(0, 204, 255, 0.596);
+}
+.text2 p:last-of-type {
+	background-color: rgba(0, 102, 255, 0.596);
+}
+.text3 p:nth-child(3) {
+	background-color: rgba(0, 102, 255, 0.596);
+}
+.text3 p:nth-of-type(1) {
+	background-color: rgba(0, 204, 255, 0.596);
+}
+.text4 div:nth-of-type(1)::before {
+	vertical-align: middle;
+	content: "";
+	width: 40px;
+	height: 40px;
+	background: url("../img/mik.png") 0 0 / 40px no-repeat;
+	margin-right: 10px;
+}
+.text4 div:nth-of-type(2)::after {
+	vertical-align: middle;
+	content: "";
+	width: 40px;
+	height: 40px;
+	background: url("../img/android.png") 0 0 / 40px no-repeat;
+	margin-right: 10px;
+}
+.underline {
+	display: inline-block;
+}
+.text4 div:nth-of-type(3)::after {
+	content: "";
+	height: 2px;
+	display: block;
+	background-color: #000;
+}
+.text4 div:nth-of-type(4)::before {
+	content: "";
+	vertical-align: middle;
+	content: "";
+	width: 40px;
+	height: 40px;
+	background: url("../img/cloud.svg") 0 0 / 40px no-repeat;
+	margin-right: 10px;
+}
+.text4 div:nth-of-type(4)::after {
+	content: "";
+	vertical-align: middle;
+	content: "";
+	width: 40px;
+	height: 40px;
+	background: url("../img/cloud.svg") 0 0 / 40px no-repeat;
+	margin-right: 10px;
+}
+
+/* ====================================================== homework =============================================================== */
+
+.design {
+	max-width: 351px;
+	margin-inline: auto;
+	padding: 16px 40px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.71; /* 24/14 */
+	letter-spacing: 0.2px;
+	color: #252B42;
+}
+.list > *:not(:last-child) {
+	margin-bottom: 16px;
+}
+.list-item::before {
+	vertical-align: middle;
+	content: "";
+	width: 32px;
+	height: 32px;
+	background: url("../img/check_badge.svg") 0 0 / 32px no-repeat;
+	margin-right: 10px;
+}
+.list-item-grey::before {
+	vertical-align: middle;
+	content: "";
+	width: 32px;
+	height: 32px;
+	background: url("../img/check_badge-grey.svg") 0 0 / 32px no-repeat;
+	margin-right: 10px;
+}
+
+/* ====================================================== game ======================================================================= */
+
+.game {
+	background: url("../img/space.jpg") center / cover no-repeat, rgb(0, 119, 255);
+	max-width: 930px;
+	margin-inline: auto;
+	padding: 15px;
+	text-align: center;
+	color: #77608d;
+}
+[class^="block-"] {
+	background: url("../img/stars.jpg") center / cover no-repeat, rgb(255, 238, 0);
+	visibility: hidden;
+	padding: 15px 0;
+}
+.game div:hover,
+.game div:hover+div {
+	visibility: visible;
+}
+.block-1 {
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	visibility: visible;
+}
+.block-2 {
+	width: 150px;
+	height: 50px;
+	margin-left: 50px;
+}
+.block-3 {
+	width: 50px;
+	height: 150px;
+	margin-left: 200px;
+	margin-top: -50px;
+}
+.block-4 {
+	width: 150px;
+	height: 50px;
+	margin-left: 200px;
+}
+.block-5 {
+	width: 50px;
+	height: 250px;
+	margin-left: 350px;
+	margin-top: -50px;
+}
+.block-6 {
+	width: 400px;
+	height: 50px;
+	margin-left: 350px;
+	margin-top: -50px;
+}
+.block-7 {
+	width: 50px;
+	height: 250px;
+	margin-left: 750px;
+	margin-top: -50px;
+}
+.block-8 {
+	width: 600px;
+	height: 50px;
+	margin-left: 150px;
+	margin-top: -50px;
+}
+.block-9 {
+	width: 50px;
+	height: 250px;
+	margin-left: 100px;
+	margin-top: -50px;
+}
+.block-10 {
+	width: 250px;
+	height: 50px;
+	margin-left: 150px;
+	margin-top: -50px;
+}
+.block-11 {
+	width: 50px;
+	height: 150px;
+	margin-left: 400px;
+	margin-top: -150px;
+}
+.block-12 {
+	width: 150px;
+	height: 50px;
+	margin-left: 450px;
+	margin-top: -150px;
+}
+.block-13 {
+	width: 50px;
+	height: 150px;
+	margin-left: 600px;
+	margin-top: -50px;
+}
+.block-14 {
+	width: 150px;
+	height: 50px;
+	margin-left: 650px;
+	margin-top: -50px;
+	font-size: 24px;
+}
+
+/* ================================================= footer =============================================== */
+
+.footer {
+	text-align: center;
+	padding: 30px 0;
+	background-color: #10b901;
+}
+.footer h2 {
+	font-size: 28px;
+	font-weight: 700;
+	color: #000;
+}
+.footer .link {
+	padding: 5px;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+.footer .link:hover {
+	box-shadow: 3px 3px 3px #000;
+}
+.footer .link:active {
+	color: #fff;
+	box-shadow: 2px 2px 3px #000;
+}

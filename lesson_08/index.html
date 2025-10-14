@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- Ukraine - uk -->
+<!-- Мова не визначена - zxx -->
+<!-- Коди мов https://html-css.co.ua/html/lang-kodu-mov/ -->
+<html lang="zxx">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Підключення шрифтів -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet">
+		<!-- Підключення окремого файлу стилів -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері (вкладці)-->
+		<title>Lesson 8</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-section">
+				<h1 id="Top" class="main-title">
+					Lesson 8
+				</h1>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main-container">
+				<div class="main-block">
+					<img class="image" src="img/logo_shanti.svg" alt="Logo Shanti">
+					<div class="text">
+						<p>- контентне, векторне, SVG.</p>
+					</div>
+				</div>
+				<div class="main-block">
+					<img class="image" src="img/right-arrow.webp" alt="Right arrow">
+					<div class="text">
+						<p>- іконка, растрове, PNG (за макетом) => AVIF/WEBP</p>
+					</div>
+				</div>
+				<div class="main-block">
+					<div class="circle"></div>
+					<div class="text">
+						<p>- елемент дизайну (спроба створення за допомогою CSS)</p>
+					</div>
+				</div>
+				<div class="main-block-bg">
+					<div class="text">
+						<p>- елемент дизайну, растрове, PNG => AVIF/WEBP</p>
+					</div>
+				</div>
+				<div class="main-block-bg-right">
+					<div class="text">
+						<p>- елемент дизайну, растрове, PNG => AVIF/WEBP</p>
+					</div>
+				</div>
+				<div class="main-block">
+					<!-- Самий крутий варіант для оптимізації та найкращої якості (не працює в сафарі) -->
+					<img class="some-image__right"
+						srcset="img/yoga1-x2.avif 2x, img/yoga1-x3.avif 3x"
+						src="img/yoga1-x1.avif" alt="Image">
+					<div class="text">
+						<p>- контентне зображення, растрове, JPG 1x, 2x, 3x => AVIF/WEBP 1x, 2x,
+							3x</p>
+					</div>
+				</div>
+				<div class="main-block">
+					<!-- Самий крутий варіант для оптимізації та найкращої якості (не працює в сафарі) -->
+					<img class="some-image__left"
+						srcset="img/yoga2-x2.avif 2x, img/yoga2-x3.avif 3x"
+						src="img/yoga2-x1.avif" alt="Image">
+					<div class="text">
+						<p>- контентне зображення, растрове, JPG 1x, 2x, 3x => AVIF/WEBP 1x, 2x,
+							3x</p>
+					</div>
+				</div>
+				<div class="main-block">
+					<!-- Самий крутий варіант для оптимізації та найкращої якості (не працює в сафарі) -->
+					<img class="some-image__small-left"
+						srcset="img/yoga3-x2.avif 2x, img/yoga3-x3.avif 3x"
+						src="img/yoga3-x1.avif" alt="Image">
+					<div class="text">
+						<p>- контентне зображення, растрове, JPG 1x, 2x, 3x => AVIF/WEBP 1x, 2x,
+							3x</p>
+					</div>
+				</div>
+				<div class="main-block">
+					<!-- (Варіант підключення працює в сафарі) -->
+					<picture class="some-image">
+						<source
+							srcset="img/yoga4-x1.avif 1x, img/yoga4-x2.avif 2x, img/yoga4-x3.avif 3x">
+						<img class="some-image__small-middle" src="img/yoga4-x1.avif" alt="Image">
+					</picture>
+					<div class="text">
+						<p>- контентне зображення, растрове, JPG 1x, 2x, 3x => AVIF/WEBP 1x, 2x,
+							3x</p>
+					</div>
+				</div>
+				<div class="main-block">
+					<!-- (Варіант підключення працює в сафарі) -->
+					<picture class="some-image">
+						<source
+							srcset="img/yoga5-x1.avif 1x, img/yoga5-x2.avif 2x, img/yoga5-x3.avif 3x">
+						<img class="some-image__small-right" src="img/yoga5-x1.avif" alt="Image">
+					</picture>
+					<div class="text">
+						<p>- контентне зображення, растрове, JPG 1x, 2x, 3x => AVIF/WEBP 1x, 2x,
+							3x</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<h2>
+				<a href="#top" class="link">Back To Top</a>
+			</h2>
+		</footer>
+	</body>
+</html>

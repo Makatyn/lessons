@@ -1,0 +1,7 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+
+body {
+	font-family: "Roboto", sans-serif;
+}

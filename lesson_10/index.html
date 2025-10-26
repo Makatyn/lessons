@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!-- Ukraine - uk -->
+<!-- Мова не визначена - zxx -->
+<!-- Коди мов https://html-css.co.ua/html/lang-kodu-mov/ -->
+<html lang="zxx">
+	<head>
+		<!-- Кодування тексту -->
+		<meta charset="UTF-8">
+		<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Підключення шрифтів -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair%20Display:wght@400;700&display=swap"
+			rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+			rel="stylesheet">
+		<!-- Підключення окремого файлу стилів -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Заголовок сторінки в браузері (вкладці)-->
+		<title>Lesson 10</title>
+	</head>
+	<body id="top">
+		<div class="wrapper">
+			<header class="header header--margin">
+				<div class="header__container">
+					<h1 class="header__title">
+						Lesson 10
+					</h1>
+					<div class="header__menu menu">
+						<div class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Practice</a>
+									<ul class="menu__sub-menu sub-menu">
+										<li class="sub-menu__item">
+											<a href="#section1" class="sub-menu__link">Relative</a>
+										</li>
+										<li class="sub-menu__item">
+											<a href="#section2" class="sub-menu__link">Absolute</a>
+										</li>
+										<li class="sub-menu__item">
+											<a href="#section3" class="sub-menu__link">Fixed</a>
+										</li>
+										<li class="sub-menu__item">
+											<a href="#section4" class="sub-menu__link">Sticky</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Homework</a>
+									<ul class="menu__sub-menu sub-menu">
+										<li class="sub-menu__item sub-menu__item--icon">
+											<a href="#section5" class="sub-menu__link">Task 1</a>
+										</li>
+										<li class="sub-menu__item sub-menu__item--icon">
+											<a href="#section6" class="sub-menu__link">Task 2</a>
+										</li>
+										<li class="sub-menu__item sub-menu__item--icon">
+											<a href="#" class="sub-menu__link">Social media</a>
+											<ul class="sub-menu__socials-menu socials-menu">
+												<li class="socials-menu__item">
+													<a target="_blank" title="Instagram official website"
+														href="https://www.instagram.com/"
+														class="socials-menu__link socials-menu__link--instagram">Instagram</a>
+												</li>
+												<li class="socials-menu__item">
+													<a target="_blank" title="Facebook official website"
+														href="https://www.facebook.com/"
+														class="socials-menu__link socials-menu__link--facebook">Facebook</a>
+												</li>
+												<li class="socials-menu__item">
+													<a target="_blank" title="Linkedin official website"
+														href="https://www.linkedin.com/"
+														class="socials-menu__link socials-menu__link--linkedin">Linkedin</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<div class="practice">
+					<div class="practice__container">
+						<div class="practice__relative relative">
+							<h2 id="section1" class="relative__title title">
+								Relative
+							</h2>
+							<div class="relative__buttons">
+								<a href="#pos1" id="pos1" class="relative__target">top 10px left 25
+									px</a>
+								<a href="#pos2" id="pos2" class="relative__target">bottom 30px right 20
+									px</a>
+								<a href="#pos3" id="pos3" class="relative__target">top 20px left 3%</a>
+								<a href="#pos4" id="pos4" class="relative__target">z-index</a>
+								<a href="#pos5" id="pos5" class="relative__target">statick</a>
+							</div>
+							<div class="relative__items">
+								<div class="relative__block relative__block--violet">1</div>
+								<div class="relative__block relative__block--green">2</div>
+								<div class="relative__block relative__block--yellow">3</div>
+							</div>
+						</div>
+						<div class="practice__absolute absolute">
+							<h2 id="section2" class="absolute__title title">
+								Absolute
+							</h2>
+							<div class="absolute__items">
+								<div class="absolute__block absolute__block--big-yellow">Absolute</div>
+								<div
+									class="absolute__block absolute__block--small-yellow">Absolute</div>
+								<div
+									class="absolute__block absolute__block--middle-yellow">Absolute</div>
+								<div class="absolute__block absolute__block--white">Absolute <br>
+									z-index 2</div>
+								<div class="absolute__block absolute__block--green">Absolute <br>
+									z-index 3</div>
+								<div class="absolute__block absolute__block--violet">Absolute <br>
+									z-index 4</div>
+								<div class="absolute__block absolute__block--brown">Absolute <br>
+									z-index 5</div>
+								<div class="absolute__block absolute__block--orange">Absolute z-index
+									auto <br> (hover z-index 6)</div>
+								<div class="absolute__block absolute__block--blue">Absolute z-index
+									auto, але нижче за кодом</div>
+
+							</div>
+						</div>
+						<div class="practice__sticky sticky">
+							<h2 id="section4" class="sticky__title title">
+								Sticky
+							</h2>
+							<div class="sticky__items">
+								<div class="sticky__block">Sticky 1</div>
+								<div class="sticky__content">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+										cumque, optio ad distinctio eos id voluptates nemo dolore? Perferendis
+										delectus error quam corrupti provident quas eaque asperiores atque
+										quasi itaque.
+										Nesciunt quia quae necessitatibus, enim placeat, delectus soluta
+										voluptates, repellendus nisi eum qui totam sunt vel quo assumenda
+										praesentium maiores quam? Reprehenderit sunt provident iure. Dolor
+										incidunt quasi necessitatibus! Ullam.
+										Laborum sunt, consequatur debitis numquam molestias nam blanditiis
+										maiores dolorum et possimus dolore adipisci deserunt? Consequatur iste
+										nostrum cumque officiis tempora est, quos, voluptatum eligendi
+										excepturi animi, modi eum corporis.
+										Voluptatum totam animi doloribus molestias laudantium rem ex, minima
+										illum, ratione sit ut cupiditate repudiandae eaque quibusdam!
+										Asperiores nisi earum culpa commodi obcaecati, labore voluptates
+										molestiae, sint facilis maiores temporibus?
+										Nihil quasi tempore esse quas sequi maxime fugiat est vel possimus
+										numquam nulla quos exercitationem soluta id cum aliquam, impedit
+										explicabo. Tempore magni sunt est odio assumenda asperiores nobis rem?
+										Sunt, provident, molestiae temporibus ut nam quisquam cupiditate ipsa,
+										officia molestias ab atque culpa accusamus sequi ea eligendi veniam!
+										Delectus, numquam! Eum perspiciatis odio, sed a reprehenderit numquam!
+										Nam, suscipit.
+										Alias deserunt quod error nam expedita exercitationem id eaque!
+										Mollitia perferendis neque assumenda a sapiente vel amet aspernatur
+										atque non, ut laudantium, officiis harum facilis ab nemo, vero placeat
+										quia?
+										Mollitia enim sunt eum assumenda sed asperiores ad aspernatur voluptas
+										totam quis accusamus, nihil placeat sit repellat ea, delectus nisi
+										aliquid a animi est cum esse. Dicta odio corporis labore?
+										Quaerat exercitationem tenetur aspernatur explicabo fugiat
+										reprehenderit nam amet, numquam blanditiis necessitatibus dolorem et
+										soluta beatae temporibus accusantium sunt voluptatem odit quisquam
+										mollitia. Porro cumque pariatur mollitia molestiae odio. In.
+										Voluptatum expedita totam, ut, commodi nobis ipsum ipsam consequuntur
+										aut consectetur maxime optio! Consequatur enim dolorem officiis sint!
+										Doloribus quibusdam modi dolore sequi tempora voluptas quaerat, id hic
+										aliquam recusandae.
+									</p>
+								</div>
+								<div class="sticky__block">Sticky 2</div>
+								<div class="sticky__content">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+										cumque, optio ad distinctio eos id voluptates nemo dolore? Perferendis
+										delectus error quam corrupti provident quas eaque asperiores atque
+										quasi itaque.
+										Nesciunt quia quae necessitatibus, enim placeat, delectus soluta
+										voluptates, repellendus nisi eum qui totam sunt vel quo assumenda
+										praesentium maiores quam? Reprehenderit sunt provident iure. Dolor
+										incidunt quasi necessitatibus! Ullam.
+										Laborum sunt, consequatur debitis numquam molestias nam blanditiis
+										maiores dolorum et possimus dolore adipisci deserunt? Consequatur iste
+										nostrum cumque officiis tempora est, quos, voluptatum eligendi
+										excepturi animi, modi eum corporis.
+										Voluptatum totam animi doloribus molestias laudantium rem ex, minima
+										illum, ratione sit ut cupiditate repudiandae eaque quibusdam!
+										Asperiores nisi earum culpa commodi obcaecati, labore voluptates
+										molestiae, sint facilis maiores temporibus?
+										Nihil quasi tempore esse quas sequi maxime fugiat est vel possimus
+										numquam nulla quos exercitationem soluta id cum aliquam, impedit
+										explicabo. Tempore magni sunt est odio assumenda asperiores nobis rem?
+										Sunt, provident, molestiae temporibus ut nam quisquam cupiditate ipsa,
+										officia molestias ab atque culpa accusamus sequi ea eligendi veniam!
+										Delectus, numquam! Eum perspiciatis odio, sed a reprehenderit numquam!
+										Nam, suscipit.
+										Alias deserunt quod error nam expedita exercitationem id eaque!
+										Mollitia perferendis neque assumenda a sapiente vel amet aspernatur
+										atque non, ut laudantium, officiis harum facilis ab nemo, vero placeat
+										quia?
+										Mollitia enim sunt eum assumenda sed asperiores ad aspernatur voluptas
+										totam quis accusamus, nihil placeat sit repellat ea, delectus nisi
+										aliquid a animi est cum esse. Dicta odio corporis labore?
+										Quaerat exercitationem tenetur aspernatur explicabo fugiat
+										reprehenderit nam amet, numquam blanditiis necessitatibus dolorem et
+										soluta beatae temporibus accusantium sunt voluptatem odit quisquam
+										mollitia. Porro cumque pariatur mollitia molestiae odio. In.
+										Voluptatum expedita totam, ut, commodi nobis ipsum ipsam consequuntur
+										aut consectetur maxime optio! Consequatur enim dolorem officiis sint!
+										Doloribus quibusdam modi dolore sequi tempora voluptas quaerat, id hic
+										aliquam recusandae.
+									</p>
+								</div>
+								<div class="sticky__block">Sticky 3</div>
+								<div class="sticky__content">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+										cumque, optio ad distinctio eos id voluptates nemo dolore? Perferendis
+										delectus error quam corrupti provident quas eaque asperiores atque
+										quasi itaque.
+										Nesciunt quia quae necessitatibus, enim placeat, delectus soluta
+										voluptates, repellendus nisi eum qui totam sunt vel quo assumenda
+										praesentium maiores quam? Reprehenderit sunt provident iure. Dolor
+										incidunt quasi necessitatibus! Ullam.
+										Laborum sunt, consequatur debitis numquam molestias nam blanditiis
+										maiores dolorum et possimus dolore adipisci deserunt? Consequatur iste
+										nostrum cumque officiis tempora est, quos, voluptatum eligendi
+										excepturi animi, modi eum corporis.
+										Voluptatum totam animi doloribus molestias laudantium rem ex, minima
+										illum, ratione sit ut cupiditate repudiandae eaque quibusdam!
+										Asperiores nisi earum culpa commodi obcaecati, labore voluptates
+										molestiae, sint facilis maiores temporibus?
+										Nihil quasi tempore esse quas sequi maxime fugiat est vel possimus
+										numquam nulla quos exercitationem soluta id cum aliquam, impedit
+										explicabo. Tempore magni sunt est odio assumenda asperiores nobis rem?
+										Sunt, provident, molestiae temporibus ut nam quisquam cupiditate ipsa,
+										officia molestias ab atque culpa accusamus sequi ea eligendi veniam!
+										Delectus, numquam! Eum perspiciatis odio, sed a reprehenderit numquam!
+										Nam, suscipit.
+										Alias deserunt quod error nam expedita exercitationem id eaque!
+										Mollitia perferendis neque assumenda a sapiente vel amet aspernatur
+										atque non, ut laudantium, officiis harum facilis ab nemo, vero placeat
+										quia?
+										Mollitia enim sunt eum assumenda sed asperiores ad aspernatur voluptas
+										totam quis accusamus, nihil placeat sit repellat ea, delectus nisi
+										aliquid a animi est cum esse. Dicta odio corporis labore?
+										Quaerat exercitationem tenetur aspernatur explicabo fugiat
+										reprehenderit nam amet, numquam blanditiis necessitatibus dolorem et
+										soluta beatae temporibus accusantium sunt voluptatem odit quisquam
+										mollitia. Porro cumque pariatur mollitia molestiae odio. In.
+										Voluptatum expedita totam, ut, commodi nobis ipsum ipsam consequuntur
+										aut consectetur maxime optio! Consequatur enim dolorem officiis sint!
+										Doloribus quibusdam modi dolore sequi tempora voluptas quaerat, id hic
+										aliquam recusandae.
+									</p>
+								</div>
+								<div class="sticky__block">Sticky 4</div>
+								<div class="sticky__content">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+										cumque, optio ad distinctio eos id voluptates nemo dolore? Perferendis
+										delectus error quam corrupti provident quas eaque asperiores atque
+										quasi itaque.
+										Nesciunt quia quae necessitatibus, enim placeat, delectus soluta
+										voluptates, repellendus nisi eum qui totam sunt vel quo assumenda
+										praesentium maiores quam? Reprehenderit sunt provident iure. Dolor
+										incidunt quasi necessitatibus! Ullam.
+										Laborum sunt, consequatur debitis numquam molestias nam blanditiis
+										maiores dolorum et possimus dolore adipisci deserunt? Consequatur iste
+										nostrum cumque officiis tempora est, quos, voluptatum eligendi
+										excepturi animi, modi eum corporis.
+										Voluptatum totam animi doloribus molestias laudantium rem ex, minima
+										illum, ratione sit ut cupiditate repudiandae eaque quibusdam!
+										Asperiores nisi earum culpa commodi obcaecati, labore voluptates
+										molestiae, sint facilis maiores temporibus?
+										Nihil quasi tempore esse quas sequi maxime fugiat est vel possimus
+										numquam nulla quos exercitationem soluta id cum aliquam, impedit
+										explicabo. Tempore magni sunt est odio assumenda asperiores nobis rem?
+										Sunt, provident, molestiae temporibus ut nam quisquam cupiditate ipsa,
+										officia molestias ab atque culpa accusamus sequi ea eligendi veniam!
+										Delectus, numquam! Eum perspiciatis odio, sed a reprehenderit numquam!
+										Nam, suscipit.
+										Alias deserunt quod error nam expedita exercitationem id eaque!
+										Mollitia perferendis neque assumenda a sapiente vel amet aspernatur
+										atque non, ut laudantium, officiis harum facilis ab nemo, vero placeat
+										quia?
+										Mollitia enim sunt eum assumenda sed asperiores ad aspernatur voluptas
+										totam quis accusamus, nihil placeat sit repellat ea, delectus nisi
+										aliquid a animi est cum esse. Dicta odio corporis labore?
+										Quaerat exercitationem tenetur aspernatur explicabo fugiat
+										reprehenderit nam amet, numquam blanditiis necessitatibus dolorem et
+										soluta beatae temporibus accusantium sunt voluptatem odit quisquam
+										mollitia. Porro cumque pariatur mollitia molestiae odio. In.
+										Voluptatum expedita totam, ut, commodi nobis ipsum ipsam consequuntur
+										aut consectetur maxime optio! Consequatur enim dolorem officiis sint!
+										Doloribus quibusdam modi dolore sequi tempora voluptas quaerat, id hic
+										aliquam recusandae.
+									</p>
+								</div>
+								<div class="sticky__block">Sticky 5</div>
+								<div class="sticky__content">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+										cumque, optio ad distinctio eos id voluptates nemo dolore? Perferendis
+										delectus error quam corrupti provident quas eaque asperiores atque
+										quasi itaque.
+										Nesciunt quia quae necessitatibus, enim placeat, delectus soluta
+										voluptates, repellendus nisi eum qui totam sunt vel quo assumenda
+										praesentium maiores quam? Reprehenderit sunt provident iure. Dolor
+										incidunt quasi necessitatibus! Ullam.
+										Laborum sunt, consequatur debitis numquam molestias nam blanditiis
+										maiores dolorum et possimus dolore adipisci deserunt? Consequatur iste
+										nostrum cumque officiis tempora est, quos, voluptatum eligendi
+										excepturi animi, modi eum corporis.
+										Voluptatum totam animi doloribus molestias laudantium rem ex, minima
+										illum, ratione sit ut cupiditate repudiandae eaque quibusdam!
+										Asperiores nisi earum culpa commodi obcaecati, labore voluptates
+										molestiae, sint facilis maiores temporibus?
+										Nihil quasi tempore esse quas sequi maxime fugiat est vel possimus
+										numquam nulla quos exercitationem soluta id cum aliquam, impedit
+										explicabo. Tempore magni sunt est odio assumenda asperiores nobis rem?
+										Sunt, provident, molestiae temporibus ut nam quisquam cupiditate ipsa,
+										officia molestias ab atque culpa accusamus sequi ea eligendi veniam!
+										Delectus, numquam! Eum perspiciatis odio, sed a reprehenderit numquam!
+										Nam, suscipit.
+										Alias deserunt quod error nam expedita exercitationem id eaque!
+										Mollitia perferendis neque assumenda a sapiente vel amet aspernatur
+										atque non, ut laudantium, officiis harum facilis ab nemo, vero placeat
+										quia?
+										Mollitia enim sunt eum assumenda sed asperiores ad aspernatur voluptas
+										totam quis accusamus, nihil placeat sit repellat ea, delectus nisi
+										aliquid a animi est cum esse. Dicta odio corporis labore?
+										Quaerat exercitationem tenetur aspernatur explicabo fugiat
+										reprehenderit nam amet, numquam blanditiis necessitatibus dolorem et
+										soluta beatae temporibus accusantium sunt voluptatem odit quisquam
+										mollitia. Porro cumque pariatur mollitia molestiae odio. In.
+										Voluptatum expedita totam, ut, commodi nobis ipsum ipsam consequuntur
+										aut consectetur maxime optio! Consequatur enim dolorem officiis sint!
+										Doloribus quibusdam modi dolore sequi tempora voluptas quaerat, id hic
+										aliquam recusandae.
+									</p>
+								</div>
+								<div class="sticky__block">Stycky 6</div>
+								<div class="sticky__content">
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+										cumque, optio ad distinctio eos id voluptates nemo dolore? Perferendis
+										delectus error quam corrupti provident quas eaque asperiores atque
+										quasi itaque.
+										Nesciunt quia quae necessitatibus, enim placeat, delectus soluta
+										voluptates, repellendus nisi eum qui totam sunt vel quo assumenda
+										praesentium maiores quam? Reprehenderit sunt provident iure. Dolor
+										incidunt quasi necessitatibus! Ullam.
+										Laborum sunt, consequatur debitis numquam molestias nam blanditiis
+										maiores dolorum et possimus dolore adipisci deserunt? Consequatur iste
+										nostrum cumque officiis tempora est, quos, voluptatum eligendi
+										excepturi animi, modi eum corporis.
+										Voluptatum totam animi doloribus molestias laudantium rem ex, minima
+										illum, ratione sit ut cupiditate repudiandae eaque quibusdam!
+										Asperiores nisi earum culpa commodi obcaecati, labore voluptates
+										molestiae, sint facilis maiores temporibus?
+										Nihil quasi tempore esse quas sequi maxime fugiat est vel possimus
+										numquam nulla quos exercitationem soluta id cum aliquam, impedit
+										explicabo. Tempore magni sunt est odio assumenda asperiores nobis rem?
+										Sunt, provident, molestiae temporibus ut nam quisquam cupiditate ipsa,
+										officia molestias ab atque culpa accusamus sequi ea eligendi veniam!
+										Delectus, numquam! Eum perspiciatis odio, sed a reprehenderit numquam!
+										Nam, suscipit.
+										Alias deserunt quod error nam expedita exercitationem id eaque!
+										Mollitia perferendis neque assumenda a sapiente vel amet aspernatur
+										atque non, ut laudantium, officiis harum facilis ab nemo, vero placeat
+										quia?
+										Mollitia enim sunt eum assumenda sed asperiores ad aspernatur voluptas
+										totam quis accusamus, nihil placeat sit repellat ea, delectus nisi
+										aliquid a animi est cum esse. Dicta odio corporis labore?
+										Quaerat exercitationem tenetur aspernatur explicabo fugiat
+										reprehenderit nam amet, numquam blanditiis necessitatibus dolorem et
+										soluta beatae temporibus accusantium sunt voluptatem odit quisquam
+										mollitia. Porro cumque pariatur mollitia molestiae odio. In.
+										Voluptatum expedita totam, ut, commodi nobis ipsum ipsam consequuntur
+										aut consectetur maxime optio! Consequatur enim dolorem officiis sint!
+										Doloribus quibusdam modi dolore sequi tempora voluptas quaerat, id hic
+										aliquam recusandae.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="practice__fixed fixed">
+							<div id="section3" class="fixed__block">
+								fixed
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="homework">
+					<div class="homework__container face">
+						<h2 id="section5" class="face__main-title main-title">
+							Face
+						</h2>
+						<div class="face__items">
+							<div class="face__item">
+								<a href="#" class="face__link">
+									<picture>
+										<source
+											srcset="img/cleanser.avif 1x, img/cleanser2.avif 2x, img/cleanser3.avif 3x"
+											type="image/avif">
+										<source
+											srcset="img/cleanser.webp 1x, img/cleanser2.webp 2x, img/cleanser3.webp 3x"
+											type="image/webp">
+										<img src="img/cleanser.jpg"
+											alt="A woman applying a face mask, her eyes closed, enjoying a skincare routine."
+											class="face__image">
+									</picture>
+									<div class="face__content">
+										<h2 class="face__sub-title">
+											Cleansers
+										</h2>
+										<span>
+											More
+										</span>
+									</div>
+								</a>
+							</div>
+							<div class="face__item">
+								<a href="#" class="face__link">
+									<picture>
+										<source
+											srcset="img/patches.avif 1x, img/patches2.avif 2x, img/patches3.avif 3x"
+											type="image/avif">
+										<source
+											srcset="img/patches.webp 1x, img/patches2.webp 2x, img/patches3.webp 3x"
+											type="image/webp">
+										<img src="img/patches.jpg"
+											alt="A woman with striking red hair and a red shirt, featuring eye patches, poses for the photo."
+											class="face__image">
+									</picture>
+									<div class="face__content">
+										<h2 class="face__sub-title">
+											Eye Patches
+										</h2>
+										<span>
+											More
+										</span>
+									</div>
+								</a>
+							</div>
+							<div class="face__item">
+								<a href="#" class="face__link">
+									<picture>
+										<source
+											srcset="img/mask.avif 1x, img/mask2.avif 2x, img/mask3.avif 3x"
+											type="image/avif">
+										<source
+											srcset="img/mask.webp 1x, img/mask2.webp 2x, img/mask3.webp 3x"
+											type="image/webp">
+										<img src="img/mask.jpg"
+											alt="A woman relaxing with a sheet mask on her face, promoting skincare and self-care."
+											class="face__image">
+									</picture>
+									<div class="face__content">
+										<h2 class="face__sub-title">
+											Мasks
+										</h2>
+										<span>
+											More
+										</span>
+									</div>
+								</a>
+							</div>
+						</div>
+						<a href="#" class="face__button">More</a>
+						<div id="section6" class="list">
+							<ul class="list__items">
+								<li class="list__item">
+									Unlimited product updates
+								</li>
+								<li class="list__item">
+									Unlimited product
+								</li>
+								<li class="list__item">
+									Unlimited product
+								</li>
+								<li class="list__item list__item--grey">
+									1GB Cloud storage
+								</li>
+								<li class="list__item list__item--grey">
+									Email and community support
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<h2 class="footer__title">
+						<a href="#top" class="footer__button">Back To Top</a>
+					</h2>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,194 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+body {
+	font-family: "Lato", sans-serif;
+	color: #2F302C;
+	background-color: #fff;
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+/* Обмежуючий контейнер */
+[class*="__container"] {
+	max-width: 1422px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* ============================================================================================== */
+
+.header {
+	text-align: center;
+	background-color: #09113f;
+	z-index: 50;
+}
+.header__title {
+	padding: 5px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+/* ============================================================================================== */
+
+.register__header {
+	padding: 82px 0;
+	text-align: center;
+}
+.register__title {
+	margin-bottom: 36px;
+}
+.title {
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.25; /* 40/32 */
+	text-transform: uppercase;
+}
+.register__subtitle {
+	color: #7E7F7C;
+	font-weight: 700;
+	line-height: 1.25; /* 20/16 */
+}
+.register__body {
+	padding: 82px 0;
+	display: flex;
+	gap: 80px;
+	justify-content: space-between;
+}
+
+/* ============================================================================================ */
+
+.form-block {
+	flex-basis: 712px;
+}
+.form-block__title {
+	margin-bottom: 36px;
+}
+.form-block__subtitle {
+	font-weight: 500;
+	line-height: 1.25; /* 20/16 */
+	color: #7E7F7C;
+	margin-bottom: 72px;
+}
+.form-block__link {
+	font-weight: 700;
+	line-height: 1.25; /* 20/16 */
+	color: #2F302C;
+}
+.form-block__link:hover {
+	text-decoration: underline;
+}
+.form-block__form {
+	display: flex;
+	flex-direction: column;
+	gap: 72px;
+}
+.form-block__body {
+	display: flex;
+	gap: 40px;
+	flex-direction: column;
+}
+.form-block__row {
+	display: flex;
+	gap: 40px;
+	justify-content: space-between;
+}
+.form-block__name,
+.form-block__email,
+.form-block__password,
+.form-block__password-reset {
+	flex-basis: 336px;
+	max-width: 100%;
+}
+.form-block__phone {
+	max-width: 100%;
+}
+.form-block__input:focus {
+	outline: none;
+	border-bottom: 1px solid #000;
+}
+.form-block__input {
+	padding: 12px 0;
+	border-bottom: 1px solid #D4D4D4;
+}
+.form-block__button {
+	max-width: 336px;
+	padding: 12px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.25; /* 20/16 */
+	color: #fff;
+	background-color: #2F302C;
+	transition-duration: 0.3s;
+}
+.form-block__button:hover {
+	background-color: #585858;
+}
+.form-block__button:active {
+	background-color: #2F302C;
+}
+
+/* ==================================================================================== */
+
+.offer-block {
+	min-height: 496px;
+	padding: 60px 80px;
+	position: relative;
+	overflow: hidden;
+	flex-basis: 600px;
+	background-color: #F6F6F6;
+}
+.offer-block__image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.offer-block__info {
+	position: relative;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: flex-start;
+}
+.offer-block__badge {
+	padding: 4px 8px;
+	color: #fff;
+	font-weight: 700;
+	line-height: 1.25; /* 20/16 */
+	text-transform: uppercase;
+	background-color: #CE0000;
+	border-radius: 4px;
+	margin-bottom: 24px;
+}
+
+/* =========================================================== */
+
+.footer {
+	text-align: center;
+	padding: 5px 0;
+	background-color: #09113f;
+}
+.footer__title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1.1;
+}

@@ -68,13 +68,13 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 }
-.menu_link,
+.menu__link,
 .action-header__link {
 	color: #2F302C;
 	font-weight: 700;
 	line-height: 1.25; /* 20/16 */
 }
-.menu_link:hover,
+.menu__link:hover,
 .action-header__link:hover {
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
